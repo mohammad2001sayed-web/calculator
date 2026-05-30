@@ -9,7 +9,7 @@
     <link rel="stylesheet" href="./css/style.css" />
   </head>
   <body>
-    <section class="claculator py-5  mx-auto bg-dark  pt-3 mt-5">
+    <section class="claculator py-5 mx-auto bg-dark pt-3 mt-5">
       <div class="container">
         <div class="row text-center g-2">
           <div class="col-12">
@@ -103,10 +103,16 @@
                     .
                   </button>
                 </div>
-                <div class="col-6">
-                  <button class="btn bg-success" onclick="calcu()">
-                    =
+                <div class="col-3 p-0">
+                  <button
+                    class="btn btn-light d-flex align-items-center justify-content-center"
+                    onclick="del()"
+                  >
+                    <i class="fa-solid fa-delete-left"></i>
                   </button>
+                </div>
+                <div class="col-6">
+                  <button class="btn bg-success" onclick="calcu()">=</button>
                 </div>
                 <div class="col-6">
                   <button class="btn btn-danger" onclick="delall()">C</button>

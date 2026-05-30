@@ -15,3 +15,7 @@ function calcu() {
 function delall() {
   inputCalcu.value = "";
 }
+
+function del() {
+  inputCalcu.value = inputCalcu.value.slice(0, -1);
+}
